@@ -36,6 +36,7 @@
     },
     "SpecialPages": {
         "ComplimentTuesday": "SpecialComplimentTuesday"
+        "ViewCompliments": "SpecialViewComplimants"
     },
     "ExtensionMessagesFiles": {
         "ComplimentTuesdayAlias": "ComplimentTuesday.alias.php"
