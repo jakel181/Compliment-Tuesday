@@ -1,1 +1,11 @@
-
+{
+    "@metadata": {
+        "authors": [
+            "Jakel181"
+        ]
+    },
+    "complimentTuesday": "Compliment Tuesday",
+    "complimentTuesday-desc": "CT extension for the scratch wiki",
+    "special-complimentTuesday-title": "Compliment Someone!",
+    "special-complimentTuesday-intro": "Compliment someone!"
+}

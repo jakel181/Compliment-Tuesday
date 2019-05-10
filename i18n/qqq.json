@@ -1,0 +1,11 @@
+{
+    "@metadata": {
+        "authors": [
+            "Jakel181"
+        ]
+    },
+    "complimentTuesday": "The name of the extension",
+    "complimentTuesday-desc": "{{desc|name=ComplimentTuesday|url=https://github.com/jakel181/Compliment-Tuesday}}",
+    "special-complimentTuesday-title": "Title of the special page Special:ComplimentTuesday",
+    "special-complimentTuesday-intro": "Description appearing on top of <tvar|1>Special:{{ll|ComplimentTuesday}}</>."
+}
