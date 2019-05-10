@@ -1,48 +1,50 @@
 {
-    "name": "ComplimentTuesday",
-    "author": "Jakel181",
-    "url": "https://github.com/jakel181/Compliment-Tuesday",
-    "license-name": "GNU General Public License v3.0",
-    "version": "0.0.1",
-    "namemsg": "complimentTuesday",
-    "descriptionmsg": "complimentTuesday-desc",
-    "manifest_version": 1,
-    "MessagesDirs": {
-        "ComplimentTuesday": [ "i18n" ]
+	"name": "ComplimentTuesday",
+	"author": [
+		"Jakel181"
+	],
+	"url": "https://github.com/jakel181/Compliment-Tuesday",
+	"descriptionmsg": "ComplimentTuesday-desc",
+	"license-name": "GPLv3",
+	"type": "specialpage",
+	"AutoloadClasses": {
+		"SpecialComplimentTuesday": "SpecialComplimentTuesday.php",
+		"SpecialViewCompliments": "SpecialViewCompliments.php"
     },
-    "AutoloadClasses": {
-        "SpecialComplimentTuesday": "specials/SpecialComplimentTuesday.php"
-    },
-    "ResourceFileModulePaths": {
-        "localBasePath": "modules",
-        "remoteExtPath": "ComplimentTuesday/modules"
-    },
-    "ResourceModules": {
-        "ext.complimentTuesday": {
-            "scripts": [
-                "ext.complimentTuesday.js"
-            ],
-            "styles": [
-                "ext.complimentTuesday.css"
-            ],
-            "messages": [
-                "complimentTuesday",
-                "complimentTuesday-desc",
-                "special-complimentTuesday-title",
-                "special-complimentTuesday-intro"
-            ],
-            "dependencies": []
-        }
-    },
-    "SpecialPages": {
-        "ComplimentTuesday": "SpecialComplimentTuesday"
-        "ViewCompliments": "SpecialViewComplimants"
-    },
-    "ExtensionMessagesFiles": {
-        "ComplimentTuesdayAlias": "ComplimentTuesday.alias.php"
-    },
-    "Hooks": {
-        "ResourceLoaderTestModules": [ "ComplimentTuesdayHooks::onResourceLoaderTestModules" ]
-    },
-    "type": "other"
+    "config": {
+		"ManageCompliments": sysop
+	},
+	"AvailableRights": [
+		"compliment",
+		"view-compliments"
+	],
+	"SpecialPages": {
+		"ComplimentTuesday": "SpecialComplimentTuesday",
+		"ViewCompliments": "SpecialViewCompliments"
+	},
+	"GroupPermissions": {
+		"user": {
+			"compliment": true
+		},
+		"*": {
+			"compliment": false,
+			"view-compliments": false
+		},
+		"$wgManageCompliments": {
+			"view-compliments": true
+		}
+	},
+	"ResourceModules": {
+		"ext.report": {
+			"styles": "main.css",
+			"localBasePath": "resources",
+			"remoteExtPath": "Report/resources"
+		}
+	},
+	"MessagesDirs": {
+		"Report": [
+			"i18n"
+		]
+	},
+	"manifest_version": 1
 }
