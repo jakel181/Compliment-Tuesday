@@ -1,0 +1,47 @@
+{
+    "name": "ComplimentTuesday",
+    "author": "Jakel181",
+    "url": "https://github.com/jakel181/Compliment-Tuesday",
+    "license-name": "GPL-2.0+",
+    "version": "0.0.1",
+    "namemsg": "complimentTuesday",
+    "descriptionmsg": "complimentTuesday-desc",
+    "manifest_version": 1,
+    "MessagesDirs": {
+        "ComplimentTuesday": [ "i18n" ]
+    },
+    "AutoloadClasses": {
+        "SpecialComplimentTuesday": "specials/SpecialComplimentTuesday.php"
+    },
+    "ResourceFileModulePaths": {
+        "localBasePath": "modules",
+        "remoteExtPath": "ComplimentTuesday/modules"
+    },
+    "ResourceModules": {
+        "ext.complimentTuesday": {
+            "scripts": [
+                "ext.complimentTuesday.js"
+            ],
+            "styles": [
+                "ext.complimentTuesday.css"
+            ],
+            "messages": [
+                "complimentTuesday",
+                "complimentTuesday-desc",
+                "special-complimentTuesday-title",
+                "special-complimentTuesday-intro"
+            ],
+            "dependencies": []
+        }
+    },
+    "SpecialPages": {
+        "ComplimentTuesday": "SpecialComplimentTuesday"
+    },
+    "ExtensionMessagesFiles": {
+        "ComplimentTuesdayAlias": "ComplimentTuesday.alias.php"
+    },
+    "Hooks": {
+        "ResourceLoaderTestModules": [ "ComplimentTuesdayHooks::onResourceLoaderTestModules" ]
+    },
+    "type": "other"
+}
