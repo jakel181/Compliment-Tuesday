@@ -10,9 +10,6 @@
 	"AutoloadClasses": {
 		"SpecialComplimentTuesday": "SpecialComplimentTuesday.php",
 		"SpecialViewCompliments": "SpecialViewCompliments.php"
-    },
-    "config": {
-		"ManageCompliments": sysop
 	},
 	"AvailableRights": [
 		"compliment",
@@ -30,7 +27,7 @@
 			"compliment": false,
 			"view-compliments": false
 		},
-		"$wgManageCompliments": {
+		"sysop": {
 			"view-compliments": true
 		}
 	},
