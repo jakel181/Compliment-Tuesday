@@ -4,8 +4,8 @@
             "Jakel181"
         ]
     },
-    "complimentTuesday": "The name of the extension",
-    "complimentTuesday-desc": "{{desc|name=ComplimentTuesday|url=https://github.com/jakel181/Compliment-Tuesday}}",
-    "special-complimentTuesday-title": "Title of the special page Special:ComplimentTuesday",
-    "special-complimentTuesday-intro": "Description appearing on top of <tvar|1>Special:{{ll|ComplimentTuesday}}</>."
+    "ThankfulThursday": "The name of the extension",
+    "ThankfulThursday-desc": "{{desc|name=ComplimentTuesday|url=https://github.com/jakel181/Thankful-Thursday}}",
+    "special-ThankfulThursday-title": "Title of the special page Special:ThankfulThursday",
+    "special-ThankfulThursday-intro": "Description appearing on top of <tvar|1>Special:{{ll|Thankful-Thursday}}</>."
 }
