@@ -1,45 +1,45 @@
 {
-	"name": "ComplimentTuesday",
+	"name": "ThankfulThursday",
 	"author": [
 		"Jakel181"
 	],
-	"url": "https://github.com/jakel181/Compliment-Tuesday",
-	"descriptionmsg": "ComplimentTuesday-desc",
+	"url": "https://github.com/jakel181/Thankful-Thursday",
+	"descriptionmsg": "ThankfulThursday-desc",
 	"license-name": "GPLv3",
 	"type": "specialpage",
 	"AutoloadClasses": {
-		"SpecialComplimentTuesday": "SpecialComplimentTuesday.php",
-		"SpecialViewCompliments": "SpecialViewCompliments.php"
+		"SpecialThankfulThursday": "SpecialThankfulThursday.php",
+		"SpecialViewThanks": "SpecialViewThanks.php"
 	},
 	"AvailableRights": [
-		"compliment",
-		"view-compliments"
+		"thank",
+		"view-thanks"
 	],
 	"SpecialPages": {
-		"ComplimentTuesday": "SpecialComplimentTuesday",
-		"ViewCompliments": "SpecialViewCompliments"
+		"ThankfulThursday": "SpecialThankfulThursday",
+		"ViewThanks": "SpecialViewThanks"
 	},
 	"GroupPermissions": {
 		"user": {
-			"compliment": true
+			"thank": true
 		},
 		"*": {
-			"compliment": false,
-			"view-compliments": false
+			"thank": false,
+			"view-thanks": false
 		},
 		"sysop": {
-			"view-compliments": true
+			"view-thanks": true
 		}
 	},
 	"ResourceModules": {
-		"ext.report": {
+		"ext.Thankful-Thursday": {
 			"styles": "main.css",
 			"localBasePath": "resources",
-			"remoteExtPath": "Report/resources"
+			"remoteExtPath": "Thankful-Thursday/resources"
 		}
 	},
 	"MessagesDirs": {
-		"Report": [
+		"Thankful-Thursday": [
 			"i18n"
 		]
 	},
